@@ -1,0 +1,21 @@
+﻿<Window x:Class="DownLoadingApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DownLoadingApp"
+        xmlns:hc="https://handyorg.github.io/handycontrol"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="300" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None">
+    <Grid Background="#ff222222">
+        <StackPanel VerticalAlignment="Center">
+            <hc:Gravatar Id="{Binding Value, ElementName=slider}"/>
+            <TextBlock FontSize="18" Text="DOWNLOADING... " Margin="5 15" Foreground="White" HorizontalAlignment="Center"/>
+            <hc:WaveProgressBar x:Name="bar" Value="{Binding Value, ElementName=slider}" Maximum="100" Background="WhiteSmoke" Foreground="White" WaveThickness="1" WaveFill="LightSkyBlue" Margin="0"/>
+            <Button x:Name="BtnStop" Content="DOWNLOAD" HorizontalAlignment="Stretch" Margin="30" Background="MediumPurple" BorderBrush="MediumPurple" Foreground="White" FontSize="14" Click="BtnStop_Click"/>
+            <hc:PreviewSlider x:Name="slider" Value="0" Maximum="100" Margin="20" HorizontalContentAlignment="Stretch" Visibility="Hidden"/>
+        </StackPanel>
+        
+
+    </Grid>
+</Window>
