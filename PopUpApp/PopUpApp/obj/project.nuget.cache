@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "q4R4yhLrPZL3L7+Cv6/n5EgVA2ahFrr5nfV8w0J2duJ6A4a7cn/w6vkNNCVrzmhFB7qUv1ln0zstpbJu6itVOw==",
+  "success": true,
+  "projectFilePath": "C:\\WpfApp\\WPF\\PopUpApp\\PopUpApp\\PopUpApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\materialdesigncolors\\2.1.2\\materialdesigncolors.2.1.2.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\materialdesignthemes\\4.8.0\\materialdesignthemes.4.8.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512"
+  ],
+  "logs": []
+}
