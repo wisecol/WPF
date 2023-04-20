@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\WpfApp\WPF\Transition_Alarms\Transition_Alarms\obj\Debug\
+F:\WpfApp\WPF\Transition_Alarms\Transition_Alarms\obj\Debug\
 Transition_Alarms
 none
 false
 DEBUG;TRACE
-C:\WpfApp\WPF\Transition_Alarms\Transition_Alarms\App.xaml
+F:\WpfApp\WPF\Transition_Alarms\Transition_Alarms\App.xaml
 3380634243
 
 7443557975
-16-1740364255
+161020630898
 MainWindow.xaml;UserControlAlarms.xaml;UserControlNewAlarm.xaml;
 
-False
+True
 
