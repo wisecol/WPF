@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadUI", "ThreadUI\ThreadUI.csproj", "{42D8B4F2-40B4-444D-8BC7-1FBC875CF24B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42D8B4F2-40B4-444D-8BC7-1FBC875CF24B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42D8B4F2-40B4-444D-8BC7-1FBC875CF24B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42D8B4F2-40B4-444D-8BC7-1FBC875CF24B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42D8B4F2-40B4-444D-8BC7-1FBC875CF24B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54FD1A43-C5CB-4177-A9F2-650F875B3315}
+	EndGlobalSection
+EndGlobal
